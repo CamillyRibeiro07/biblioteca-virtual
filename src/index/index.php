@@ -1,6 +1,6 @@
 <?php
 include_once 'verifica_login.php';
-require_once 'C:\xampp\htdocs\biblioteca-virtual\src\config\config.php';
+require_once 'C:\xampp\htdocs\biblioteca-virtual-v\src\config\config.php';
 require_once 'app/Controllers/LivroController.php';
 require_once 'app/Controllers/EmprestimoController.php';
 
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Biblioteca Virtual</title>
     <link rel="stylesheet" href="public/css/02index-biblio.css">
-    <link rel="shortcut icon" href="public/assets/img/letter-b.png" type="image/x-icon">
+
     <script src="public/assets/js/script.js"></script>
 </head>
 <body>

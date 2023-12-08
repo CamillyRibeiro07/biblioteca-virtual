@@ -5,10 +5,10 @@ session_start()
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Bookers©</title>
+	<title>Biblioteca Virtual</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="public/assets/img/letter-b.png" type="image/x-icon">
+	
 	<link rel="stylesheet" href="public/css/01login-registro.css">
 	
 </head>
@@ -23,11 +23,11 @@ session_start()
                     ?>
 <div class="bg">
 <div class="logo">
-<img  src="public/assets/img/logo.png">
+
 </div>
 <h1 class="title">Bem-vindo à<br>
     Biblioteca Virtual!<br>
-    <span class="website">www.ourbookers.com.br </span>
+    
 </h1>
 </div>
     
@@ -84,6 +84,6 @@ session_start()
 	
 					
 			
-<h3 class="rights">All rights reserved by Bookers©</h3>
+
 </body>
 </html>

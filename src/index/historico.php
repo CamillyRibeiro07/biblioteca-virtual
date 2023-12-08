@@ -1,6 +1,6 @@
 <?php
 include_once 'verifica_login.php';
-require_once 'C:\xampp\htdocs\biblioteca-virtual\src\config\config.php';
+require_once 'C:\xampp\htdocs\biblioteca-virtual-v\src\config\config.php';
 require_once 'app/Controllers/LivroController.php';
 require_once 'app/Controllers/EmprestimoController.php';
 

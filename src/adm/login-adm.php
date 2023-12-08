@@ -51,7 +51,7 @@ input {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #3498db;
+    background-color: rgb(187, 4, 147);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-    background-color: #267bb9;
+    background-color: rgb(187, 4, 147);
 }
 
 .error-message {

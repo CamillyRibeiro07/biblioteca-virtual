@@ -45,19 +45,19 @@ form a {
 
 form input:focus {
     outline: none;
-    border-color: #1c86cd;
-    box-shadow: 0 0 8px 0 #1c86cd;
+    border-color: rgb(187, 4, 147);
+    box-shadow: 0 0 8px 0 rgb(187, 4, 147);
 }
 
 form button {
-    background:  #1c86cd; 
+    background:  #9c0390; 
     color: #fff;
     cursor: pointer;
     transition: background 0.3s;
 }
 
 form button:hover {
-    background: #169af1;
+    background: #63025b;
 }
 
 form a {
@@ -75,7 +75,7 @@ form a::before {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #1c86cd;
+    background-color: #42045e;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
@@ -90,13 +90,13 @@ form h2 {
     font-weight: lighter;
     text-align: left;
     font-size: 28px;
-    color: #1c86cd;
+    color: #42045e;
     margin-bottom: 20px;
     transition: color 0.3s;
 }
 
 form:hover h2 {
-    color: #169af1;
+    color: #2f0144;
 }
 
 .subtitle {
@@ -125,7 +125,7 @@ form:hover h2 {
     border: 1px solid #ffffff;
     border-radius: 50%;
     overflow: hidden;
-    background: linear-gradient(45deg, #0d5d93, #1394e9);
+    background: linear-gradient(45deg, #7a04b1, #1b0027);
     box-shadow: 0 2px 28px rgba(0, 0, 0, 0.558);
     transition: all 0.3s;
     cursor: pointer;
@@ -200,7 +200,7 @@ form:hover h2 {
     margin: 0 10px;
     padding: 10px 20px;
     border: none;
-    background: #36a0e6;
+    background: rgb(187, 4, 147);
     color: #fff;
     border-radius: 8px;
     cursor: pointer;
@@ -208,7 +208,7 @@ form:hover h2 {
 }
 
 .modal button:hover {
-    background: #308cca;
+    background: rgb(131, 3, 103);
 }
 
 /* Estilos do fundo desfocado do modal */
@@ -245,7 +245,7 @@ form:hover h2 {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, #36a0e6, #246d9e), url('public/assets/img/logo.png');
+    background: linear-gradient(45deg, rgb(204, 0, 187), 54, 230), rgb(134, 36, 158);
     background-size: cover; /* ou 'contain', dependendo da preferência */
     background-position: center; /* ou ajuste conforme necessário */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -258,7 +258,7 @@ form:hover h2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #36a0e6, #246d9e), url('public/assets/img/logo.png');
+    background: linear-gradient(45deg, rgb(172, 7, 144), #63025b), url('public/assets/img/logo.png');
     background-size: cover; /* ou 'contain', dependendo da preferência */
     background-position: center; /* ou ajuste conforme necessário */
     z-index: -1; /* Para colocar o pseudo-elemento atrás do conteúdo da .bg */
@@ -342,7 +342,7 @@ form:hover h2 {
 
     form input:focus {
         outline: none;
-        border-color: #1c86cd;
+        border-color: rgb(205, 28, 181);
         box-shadow: 0 0 8px 0 #1c86cd;
     }
 
@@ -379,4 +379,3 @@ a {
     text-decoration: none;
     
 }
-

@@ -91,18 +91,18 @@ $livros = $livroController->listarLivros();
         }
 
         input:focus, select:focus, button:focus {
-            border-color: #3498db;
+            border-color: rgb(187, 4, 147);
         }
 
         button {
-            background-color: #3498db;
+            background-color: rgb(187, 4, 147);
             color: #fff;
             cursor: pointer;
             transition: background-color 0.3s ease, transform 0.2s ease;
         }
 
         button:hover {
-            background-color: #267bb9;
+            background-color: rgb(187, 4, 147);
             transform: scale(1.05);
         }
 
@@ -121,14 +121,14 @@ $livros = $livroController->listarLivros();
         }
 
         a {
-            color: #3498db;
+            color: #680a94;
             text-decoration: none;
             font-weight: bold;
             transition: color 0.3s ease;
         }
 
         a:hover {
-            color: #267bb9;
+            color: #680a94;
         }
 
         table {
@@ -144,7 +144,7 @@ $livros = $livroController->listarLivros();
         }
 
         th {
-            background-color: #3498db;
+            background-color: rgb(187, 4, 147);
             color: #fff;
         }
 

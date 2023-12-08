@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 18vw;
-    background-color: #2980b9;
+    background-color: rgb(128, 1, 100);
 }
 
 .text-logo {
@@ -33,7 +33,7 @@ body {
 }
 
 header {
-    background-color: #3498db; /* Azul */
+    background-color: rgb(187, 4, 147); /* Azul */
     color: #fff;
     text-align: center;
     width: 100%;
@@ -112,7 +112,7 @@ nav a:hover {
 }
 
 .sidebar {
-    background-color: #3498db; /* Azul */
+    background-color: #2f0144; /* Azul */
     color: #fff;
     padding: 20px;
     width: 200px;
@@ -128,14 +128,14 @@ nav a:hover {
 }
 
 .user-level:hover {
-    color: #007bffb7;
+    color: rgb(187, 4, 147);
    
 
     transition: color 0.5s;
 }
 
 .user-level:hover {
-    color: #007bffb7;
+    color: rgb(187, 4, 147);
 }
 
 .list{
@@ -163,7 +163,7 @@ nav a:hover {
 
 
 .list a:hover {
-    color: #007bffb7;
+    color: rgb(187, 4, 147);
     background-color: rgba(82, 97, 103, 0.608); /* Azul mais escuro */
 }
 
@@ -176,7 +176,7 @@ nav a:hover {
 
 
 footer {
-    background-color: #3498db; /* Azul */
+    background-color: rgb(187, 4, 147); /* Azul */
     color: #fff;
     text-align: center;
     padding: 1em 0;

@@ -1,6 +1,6 @@
 <?php
-require_once 'C:\xampp\htdocs\biblioteca-virtual\src\config\config.php';
-require_once 'C:\xampp\htdocs\biblioteca-virtual\src\adm\app\Controllers\LivroController.php';
+require_once 'C:\xampp\htdocs\biblioteca-virtual-v\src\config\config.php';
+require_once 'C:\xampp\htdocs\biblioteca-virtual-v\src\adm\app\Controllers\LivroController.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $livroController = new LivroController($pdo);

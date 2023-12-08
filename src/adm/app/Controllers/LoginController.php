@@ -1,5 +1,5 @@
 <?php
-require_once 'C:\xampp\htdocs\biblioteca-virtual\src\adm\app\Models\LoginModel.php';
+require_once 'C:\xampp\htdocs\biblioteca-virtual-v\src\adm\app\Models\LoginModel.php';
 
 class LoginController {
     private $loginModel;
@@ -18,7 +18,7 @@ class LoginController {
 
     public function exibirListaLogins() {
         $logins = $this->loginModel->listarLogins();
-        include 'C:\xampp\htdocs\biblioteca-virtual\src\adm\app\Views\usuarios\lista.php';
+        include 'C:\xampp\htdocs\biblioteca-virtual-v\src\adm\app\Views\usuarios\lista.php';
     }
 
     public function atualizarLogin($id_usuario, $nome_u, $email, $senha) {
